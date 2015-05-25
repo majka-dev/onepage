@@ -1,0 +1,101 @@
+body {
+    font-family: 'Acto-UltraLight',sans-serif;
+    color: #37474f;
+}
+/*h1, h2, h3, h4, h5, h6 {
+    font-size: 80%;
+}*/
+
+h4 {
+    font-size: 70%;
+}
+
+@font-face {
+    font-family: "Acto-UltraLight";
+    src: url("/Fonts/Acto/Acto-UltraLight.otf");
+}
+div {
+    padding: 15px;
+}
+.container {
+    z-index: 9999;
+    position: relative;
+}
+
+.row {
+    background-color: #cfd8dc;
+    height: 1000px;
+}
+
+
+.background-image {
+    position: absolute;
+    z-index: 1;
+    border-collapse: collapse;
+    background-image: url("/img/to.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+    overflow: auto;
+}
+
+.top {
+    background-image: url("/img/to.jpg");
+    background-size: cover;
+    height: 40%;
+    max-height: 250px;
+    position: relative;
+    /*-webkit-filter: blur(2px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(2px);
+    overflow: hidden;
+    z-index: 1;*/
+    display: inline-block;
+}
+
+.logo {
+    background-image: url("/img/logo.png");
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -5%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    min-width: 200px;
+}
+.main {
+    height: 50%;
+    background-color: #cfd8dc;
+    position: relative;
+    display: inline-block;
+}
+
+.product-description {
+    background-color: aliceblue;
+}
+.title {
+    background-color: aqua;
+    padding-right: auto;
+    padding-left: auto;
+}
+.right-bar {
+    background-color: aquamarine;
+}
+
+.map-container {
+    width:550px;
+    max-width: 100%;
+    height: 300px;
+}
