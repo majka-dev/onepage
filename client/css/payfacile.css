@@ -20,7 +20,7 @@ div {
 }
 
 .row {
-    background-color: #cfd8dc;
+    background-color: #eceff1;
     height: 1000px;
 }
 
@@ -30,15 +30,14 @@ div {
     z-index: 1;
     border-collapse: collapse;
     background-image: url("/img/to.jpg");
-    width: 100%;
-    height: 100%;
     background-size: cover;
     -webkit-filter: blur(25px);
     -moz-filter: blur(25px);
     -o-filter: blur(25px);
     -ms-filter: blur(25px);
     filter: blur(25px);
-    overflow: auto;
+    width: 100%;
+    height: 150%;
 }
 
 .top {
@@ -47,26 +46,36 @@ div {
     height: 40%;
     max-height: 250px;
     position: relative;
-    /*-webkit-filter: blur(2px);
+    -webkit-filter: blur(3px);
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
-    filter: blur(2px);
+    filter: blur(3px);
     overflow: hidden;
-    z-index: 1;*/
-    display: inline-block;
+
 }
 
 .logo {
-    background-image: url("/img/logo.png");
-    height: 100px;
+    /*background-image: url("/img/logo.png");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    min-height:50px;
+    height:auto !important;
+    margin-bottom: 3%;
     margin-top: -5%;
     position: relative;
+    align-content: center;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
+}
+
+.p-logo {
+    /*background-image: url("/img/Logo/Payfacile.ICONE.png");*/
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .btn {
@@ -86,6 +95,7 @@ div {
     background-color: aqua;
     padding-right: auto;
     padding-left: auto;
+    margin-bottom: 3%;
 }
 .right-bar {
     background-color: #eceff1 ;
