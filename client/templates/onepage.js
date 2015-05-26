@@ -4,7 +4,7 @@ if (Meteor.isClient) {
     });
 }
 
-Template.onepage.helpers({
+Template.description.helpers({
     exampleMapOptions: function() {
         // Make sure the maps API has loaded
         if (GoogleMaps.loaded()) {
@@ -17,7 +17,7 @@ Template.onepage.helpers({
     }
 });
 
-Template.onepage.onCreated(function() {
+Template.description.onCreated(function() {
     // We can use the `ready` callback to interact with the map API once the map is ready.
     GoogleMaps.ready('exampleMap', function(map) {
         // Add a marker to the map once it's ready
