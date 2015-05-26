@@ -1,12 +1,16 @@
 body {
     font-family: 'Acto-UltraLight',sans-serif;
     color: #37474f;
+    font-size: 16px;
 }
 /*h1, h2, h3, h4, h5, h6 {
     font-size: 80%;
 }*/
 
-
+h6 {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
 @font-face {
     font-family: "Acto-UltraLight";
     src: url("/Fonts/Acto/Acto-UltraLight.otf");
@@ -18,7 +22,7 @@ body {
 
 .row {
     background-color: #eceff1;
-    height: 1000px;
+    height: 800px;
 }
 .row .col {
     float: none;
@@ -95,26 +99,31 @@ body {
     display: block;
     padding: 15px;
 }
+.row .col.l6 {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.row .col.l6{
+    padding-left: 40px;
+}
 
 a:hover, a:focus {
     text-decoration: none;
 }
-.product-description {
-    background-color: #eceff1 ;
-}
+
 .title {
     font-weight: bold;
     padding-right: auto;
     padding-left: auto;
-    margin-bottom: 3%;
-}
-.right-bar {
-    background-color: #eceff1 ;
-    padding: 5%;
+    margin-bottom: 5%;
 }
 
 .map-container {
     width:550px;
     max-width: 100%;
-    height: 300px;
+    height:150px;
+}
+
+li {
+    padding: 7px;
 }
