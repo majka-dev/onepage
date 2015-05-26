@@ -3,9 +3,9 @@ body {
     color: #37474f;
     font-size: 16px;
 }
-/*h1, h2, h3, h4, h5, h6 {
-    font-size: 80%;
-}*/
+p, h1, h2, h3, h4, h5, h6 {
+    display: inline;
+}
 
 h6 {
     font-size: 1.5rem;
@@ -22,7 +22,6 @@ h6 {
 
 .row {
     background-color: #eceff1;
-    height: 800px;
 }
 .row .col {
     float: none;
@@ -32,15 +31,15 @@ h6 {
     position: absolute;
     z-index: 1;
     border-collapse: collapse;
-    background-image: url("/img/to.jpg");
-    background-size: cover;
-    -webkit-filter: blur(25px);
+    background-image: url("/img/gym.png");
+    background-size: contain;
+    -webkit-filter: blur(40px);
     -moz-filter: blur(25px);
     -o-filter: blur(25px);
     -ms-filter: blur(25px);
-    filter: blur(25px);
+    filter: blur(40px);
     width: 100%;
-    height: 150%;
+    height: 100%;
 }
 .la {
     margin-bottom: -30px;
@@ -50,21 +49,26 @@ h6 {
 }
 
 .top {
-    background-image: url("/img/to.jpg");
+    background-image: url("/img/gym1.png");
     background-size: cover;
-    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
     max-height: 250px;
     position: relative;
-    /*-webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(3px);*/
+    display: block;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(1px);
     overflow: hidden;
-    -webkit-filter: brightness(0.4);
-    filter: brightness(0.4);
+    /*-webkit-filter: brightness(0.4);
+    filter: brightness(0.4);*/
     }
-
+.lu {
+    height: 250px;
+}
 .logo {
     background-image: url("/img/logo.png");
     background-size: cover;
@@ -115,7 +119,7 @@ a:hover, a:focus {
     font-weight: bold;
     padding-right: auto;
     padding-left: auto;
-    margin-bottom: 5%;
+    margin-bottom: 5px;
 }
 
 .map-container {
@@ -127,3 +131,19 @@ a:hover, a:focus {
 li {
     padding: 7px;
 }
+.stButton .stLarge {
+    display: inline-block;
+    height: 25px !important;
+    width: 25px !important;
+    position: relative;
+    background-size: cover;
+}
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    color: #37474f;
+    position: relative;
+    width: 230px;
+}
+
