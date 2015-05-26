@@ -11,6 +11,5 @@ underscore
 twbs:bootstrap
 materialize:materialize
 iron:router
-joshowens:shareit
 dburles:google-maps
 fortawesome:fontawesome

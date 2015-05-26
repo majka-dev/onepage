@@ -49,6 +49,7 @@ h6 {
 }
 
 .top {
+    border-collapse: collapse;
     background-image: url("/img/gym1.png");
     background-size: cover;
     margin-left: auto;
